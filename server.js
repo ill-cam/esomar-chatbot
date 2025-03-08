@@ -8,7 +8,7 @@ const OpenAI = require("openai");
 const app = express();
 app.use(express.json());
 
-const openai = new OpenAI({ apiKey: "YOUR_OPENAI_API_KEY" }); // Replace with your key
+const openai = new OpenAI({ apiKey: "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" }); // Replace with your key
 
 // Function to fetch latest ESOMAR PDFs
 async function fetchLatestPDFs() {
